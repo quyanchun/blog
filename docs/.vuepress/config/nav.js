@@ -14,6 +14,13 @@ module.exports = [
         ],
       },
       {
+        text: '页面',
+        items: [
+          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+        ],
+      },
+      {
         text: '学习笔记',
         items: [
           { text: '《JavaScript教程》', link: '/note/javascript/' },
@@ -42,7 +49,18 @@ module.exports = [
     ],
   },
   {
-    text: '页面',
+    text: '后端',
+    link: '/back/',
+    items: [
+      { text: 'java', link: '/pages/0de8ef/' },
+      { text: 'python', link: '/pages/0a83b083bdf257cb/' },
+      { text: 'android', link: '/pages/0a83b083bdf257cb/' },
+      { text: 'ois', link: '/pages/0a83b083bdf257cb/' },
+      { text: '数据库', link: '/pages/8309a5b876fc95e3/' },
+    ],
+  },
+  {
+    text: '运维',
     link: '/ui/',
     items: [
       { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
