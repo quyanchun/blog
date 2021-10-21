@@ -37,8 +37,8 @@ module.exports = [
         },
       ],
     },
-  ],
-  [
+  ], //音乐插件 yarn add vuepress-plugin-meting -D
+ /* [
     "meting",
     {
       meting: {
@@ -56,7 +56,7 @@ module.exports = [
         lrc: false
       }
     }
-  ],
+  ],*/
   [
     'one-click-copy',
     {
