@@ -61,10 +61,10 @@ module.exports = [
   },
   {
     text: '运维',
-    link: '/ui/',
+    link: '/maintenance/',
     items: [
-      { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-      { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+      { text: '中间件安装', link: '/pages/e82647/' },
+      { text: 'Docker', link: '/pages/5da925/' },
     ],
   },
   {
