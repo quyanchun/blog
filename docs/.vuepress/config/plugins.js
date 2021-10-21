@@ -38,7 +38,25 @@ module.exports = [
       ],
     },
   ],
-
+  [
+    "meting",
+    {
+      meting: {
+        server: "tencent", // netease:网易云，tencent:qq音乐，xiami:虾米音乐
+        type: "playlist",
+        mid: "8210261510",
+      },
+      aplayer: {
+        autoplay: true,
+        mini: true,
+        theme: '#282c34'
+      },
+      mobile: {
+        cover: false,
+        lrc: false
+      }
+    }
+  ],
   [
     'one-click-copy',
     {
