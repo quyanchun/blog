@@ -7,7 +7,7 @@ module.exports = {
   theme: 'vdoing', // 使用npm包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
-  title: "YanChun's blog",
+  title: "延春的个人空间",
   description: '个人博客 技术分享',
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
