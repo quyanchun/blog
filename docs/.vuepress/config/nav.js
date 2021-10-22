@@ -52,7 +52,7 @@ module.exports = [
     text: '后端',
     link: '/back/',
     items: [
-      { text: 'java', link: '/pages/0de8ef/' },
+      { text: 'java', link: '/maintenance/java/' },
       { text: 'python', link: '/pages/0a83b083bdf257cb/' },
       { text: 'android', link: '/pages/0a83b083bdf257cb/' },
       { text: 'ois', link: '/pages/0a83b083bdf257cb/' },
@@ -63,8 +63,8 @@ module.exports = [
     text: '运维',
     link: '/maintenance/',
     items: [
-      { text: '中间件安装', link: '/pages/e82647/' },
-      { text: 'Docker', link: '/pages/5da925/' },
+      { text: '中间件安装', link: '/maintenance/middleware/' },
+      { text: 'Docker', link: '/maintenance/docker/' },
     ],
   },
   {
