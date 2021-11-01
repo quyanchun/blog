@@ -81,7 +81,7 @@ module.exports = {
     // 页脚信息
     createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'yanchun', // 博客版权信息，支持a标签
+      '京ICP备2021033341号-1', // 博客版权信息，支持a标签
   },
   //htmlModules // 插入hmtl(广告)模块
 }
