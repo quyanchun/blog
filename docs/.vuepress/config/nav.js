@@ -65,6 +65,7 @@ module.exports = [
     items: [
       { text: '中间件安装', link: '/maintenance/middleware/' },
       { text: 'Docker', link: '/maintenance/docker/' },
+      { text: 'Linux', link: '/maintenance/linux/' },
     ],
   },
   {

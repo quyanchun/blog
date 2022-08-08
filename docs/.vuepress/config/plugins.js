@@ -6,38 +6,40 @@ module.exports = [
   //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
   // }],
 
-  'vuepress-plugin-baidu-autopush', // 百度自动推送
+  // 'vuepress-plugin-baidu-autopush', // 百度自动推送
 
   // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
-  [
-    'thirdparty-search',
-    {
-      thirdparty: [
-        // 可选，默认 []
-        {
-          title: '在MDN中搜索',
-          frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
-          behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
-        },
-        {
-          title: '在Runoob中搜索',
-          frontUrl: 'https://www.runoob.com/?s=',
-        },
-        {
-          title: '在Vue API中搜索',
-          frontUrl: 'https://cn.vuejs.org/v2/api/#',
-        },
-        {
-          title: '在Bing中搜索',
-          frontUrl: 'https://cn.bing.com/search?q=',
-        },
-        {
-          title: '通过百度搜索本站的',
-          frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
-        },
-      ],
-    },
-  ], //音乐插件 yarn add vuepress-plugin-meting -D
+  // [
+  //   'thirdparty-search',
+  //   {
+  //     thirdparty: [
+  //       // 可选，默认 []
+  //       {
+  //         title: '在MDN中搜索',
+  //         frontUrl: 'https://developer.mozilla.org/zh-CN/search?q=', // 搜索链接的前面部分
+  //         behindUrl: '', // 搜索链接的后面部分，可选，默认 ''
+  //       },
+  //       {
+  //         title: '在Runoob中搜索',
+  //         frontUrl: 'https://www.runoob.com/?s=',
+  //       },
+  //       {
+  //         title: '在Vue API中搜索',
+  //         frontUrl: 'https://cn.vuejs.org/v2/api/#',
+  //       },
+  //       {
+  //         title: '在Bing中搜索',
+  //         frontUrl: 'https://cn.bing.com/search?q=',
+  //       },
+  //       {
+  //         title: '通过百度搜索本站的',
+  //         frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
+  //       },
+  //     ],
+  //   },
+  // ],
+
+  //音乐插件 yarn add vuepress-plugin-meting -D
  /* [
     "meting",
     {
@@ -74,7 +76,7 @@ module.exports = [
       settings: {
         // jsLib: ['http://xxx'], // 在线示例(jsfiddle, codepen)中的js依赖
         // cssLib: ['http://xxx'], // 在线示例中的css依赖
-        // vue: 'https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js', // 在线示例中的vue依赖
+        // vue: 'https://gcore.jsdelivr.net/npm/vue/dist/vue.min.js', // 在线示例中的vue依赖
         jsfiddle: false, // 是否显示 jsfiddle 链接
         codepen: true, // 是否显示 codepen 链接
         horizontal: false, // 是否展示为横向样式
@@ -90,20 +92,20 @@ module.exports = [
       },
     },
   ],
-  [
-    'vuepress-plugin-baidu-tongji', // 百度统计
-    {
-      hm: '503f098e7e5b3a5b5d8c5fc2938af002',
-    },
-  ],
+  // [
+  //   'vuepress-plugin-baidu-tongji', // 百度统计
+  //   {
+  //     hm: '503f098e7e5b3a5b5d8c5fc2938af002',
+  //   },
+  // ],
   [
     'vuepress-plugin-comment', // 评论
     {
       choosen: 'gitalk',
       options: {
-        clientID: 'a6e1355287947096b88b',
-        clientSecret: 'f0e77d070fabfcd5af95bebb82b2d574d7248d71',
-        repo: 'blog-gitalk-comment', // GitHub 仓库
+        clientID: 'b0b1509871c0d74de0fc',
+        clientSecret: '25a1c76d852ef9775bb1e499b91828557ae53599',
+        repo: 'blog', // GitHub 仓库
         owner: 'quyanchun', // GitHub仓库所有者
         admin: ['quyanchun'], // 对仓库有写权限的人
         // distractionFreeMode: true,

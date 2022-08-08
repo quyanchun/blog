@@ -3,7 +3,7 @@ pageComponent:
   name: Catalogue
   data:
     path: 05.后端/01.java
-    imgUrl: https://cdn.jsdelivr.net/gh/quyanchun/public_img/blog/202110221226713.jpg
+    imgUrl: https://gcore.jsdelivr.net/gh/quyanchun/public_img/blog/202110221226713.jpg
     description: java
 title: Java
 date: 2021-10-22 12:27:43

@@ -22,9 +22,9 @@ module.exports = {
   // categoryText: '随笔', // 碎片化文章（_posts文件夹的文章）预设生成的分类值，默认'随笔'
 
   // bodyBgImg: [
-  //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
-  //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
-  //   'https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
+  //   'https://gcore.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175828.jpeg',
+  //   'https://gcore.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175845.jpeg',
+  //   'https://gcore.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
   // ], // body背景大图，默认无。 单张图片 String || 多张图片 Array, 多张图片时每隔15秒换一张。
   // bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0 ~ 1.0, 默认0.5
 
@@ -54,7 +54,7 @@ module.exports = {
     // 博主信息，显示在首页侧边栏
     avatar: '/img/logo.png',
     name: '会痛的石头',
-    slogan: '一个小学生',
+    slogan: 'IT界小学生',
   },
   social: {
     // 社交图标，显示于博主信息栏和页脚栏
@@ -81,7 +81,7 @@ module.exports = {
     // 页脚信息
     createYear: 2021, // 博客创建年份
     copyrightInfo:
-      '京ICP备2021033341号-1', // 博客版权信息，支持a标签
+      '<a href="https://beian.miit.gov.cn/">京ICP备2021033341号-1</a>' // 博客版权信息，支持a标签
   },
   //htmlModules // 插入hmtl(广告)模块
 }

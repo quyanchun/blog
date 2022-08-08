@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/blog
+cd /home/yanchun-blog
 
 git pull
 

@@ -77,8 +77,8 @@ module.exports = (options, ctx) => {
           : path.resolve(__dirname, 'noopModule.js')
       }
     },
-
     plugins: [
+      ['fulltext-search'],
       ['@vuepress/active-header-links', options.activeHeaderLinks],
       '@vuepress/search',
       '@vuepress/plugin-nprogress',

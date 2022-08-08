@@ -34,4 +34,9 @@ npm install # or yarn install
 
 # develop
 npm run dev # or yarn dev
+
+# build (使用node启动会比较卡顿，这里用nginx做前端服务器)
+# 打包后文件位置  docs/.vuepress/dist.
+npm run build
+
 ```

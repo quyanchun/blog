@@ -3,11 +3,11 @@ const plugins = require('./config/plugins.js');
 const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
-  port: '80',
+  port: '1080',
   theme: 'vdoing', // 使用npm包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
-  title: "个人记事本",
+  title: "延春的技术站",
   description: '个人博客 技术分享',
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {

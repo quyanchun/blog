@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: YanChun's blog
+heroText: 何以解忧，唯有学习
 tagline: 积跬步以至千里，致敬每个爱学习的你。
 # actionText: 立刻进入 →
 # actionLink: /web/
